@@ -46,6 +46,8 @@ function feedDog() {
 
   if (foodS === 0) {
     feed.mousePressed()
+  }else{
+    feed.mousePressed(feedDog)
   }
 }
 //function to add food in story' 
