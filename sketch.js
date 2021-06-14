@@ -42,13 +42,6 @@ function feedDog() {
     Food: foodObj.getFoodStock(),
     hour: hour()
   })
-  dog.scale += 0.01
-
-  if (foodS === 0) {
-    feed.mousePressed()
-  }else{
-    feed.mousePressed(feedDog)
-  }
 }
 //function to add food in story' 
 function addFoods() {
